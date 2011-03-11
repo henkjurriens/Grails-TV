@@ -1,0 +1,264 @@
+
+
+html{
+min-height: 100%	
+	
+}
+
+  body {
+    font: 16px Verdana, "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px; top: 0px;
+
+    background-image: -webkit-gradient(
+           linear,
+           left bottom,
+           left top,
+           color-stop(0.19, rgb(10,9,10)),
+           color-stop(0.6, rgb(89,84,84)),
+           color-stop(0.89, rgb(120,114,115))
+       );
+
+     background-image: -moz-linear-gradient(
+           center bottom,
+           rgb(10,9,10) 19%,
+           rgb(89,84,84) 60%,
+           rgb(120,114,115) 89%
+       );
+
+ }
+
+#logo{
+    margin : 0px 0px 0px 00px;
+
+}
+
+#logo img{
+    float : left;
+    margin : 0px 0px 0px 20px;
+}
+
+
+#logo h1 {
+    color : white;
+    font-size : 60px;
+    margin : 20px 0px 15px 20px;
+    height : 70px;
+    float : left;
+}
+
+
+#content{
+    width  : 1000px;
+
+    margin : 10px 50px 50px 0px;
+
+}
+
+#menu {
+    clear : both;
+    float : left;
+
+
+}
+
+#menu ul{
+    list-style-type: none;
+    margin-top : 50px;
+
+}
+
+#menu li{
+    font-size: 26px;
+    height : 70px;
+    width : 100px;
+    margin-left : -50px;
+
+
+
+}
+
+#menu a{
+    display : block;
+    text-decoration: none;
+    height : 40px;
+    padding : 5px 50px 5px 50px;
+    width : 100px;
+    text-align: center;
+
+    }
+
+#menu a:hover{
+    background : white;
+    color : black;
+    -moz-box-shadow: 0 0 5px 5px #0087f7;
+    -webkit-box-shadow: 0 0 5px 5px #0087f7;
+    box-shadow: 0 0 5px 5px #0087f7;
+
+}
+
+
+#menu a.active{
+    background : white;
+    color : black;
+
+}
+
+
+
+a{
+    color : white;
+}
+
+
+#page {
+    float : left;
+   // border : 1px solid white;
+    width : 700px;
+    height : 600px;
+    margin : 40px 50px 50px 150px;
+   // -moz-border-radius: 15px;
+   // border-radius: 15px;
+
+
+}
+
+
+#page h1{
+    color : #0087f7;
+}
+
+#page .image {
+
+    width : 150px;
+    height : 200px;
+    margin : 10px;
+    border : 1px solid white;
+    float : left;
+}
+
+#page .image-large {
+
+    width : 300px;
+    height : 400px;
+    margin : 10px;
+    border : 1px solid white;
+    float : left;
+}
+
+
+#page p{
+    color : white;
+    margin : 10px 0px 0px 10px;
+    float : left;
+}
+
+.image:hover{
+    -moz-box-shadow: 0 0 5px 5px #0087f7;
+    -webkit-box-shadow: 0 0 5px 5px #0087f7;
+    box-shadow: 0 0 5px 5px #0087f7;
+
+}
+
+
+#page h2 {
+    font-size : 18px;
+    color : white;
+    margin-top : 5px;
+
+}
+
+
+#fullscreen {
+    position: relative; /*** Let's be nice to IE ***/
+    width: 100%; /*** Content Width ***/
+    display: table; /*** For non-IE browsers ***/
+    height: 100%;
+
+}
+
+#searchbar{
+    width : 1000px;
+    height: 25px;
+    position : absolute;
+    top : 0px;
+    left : 0px;
+
+}
+
+#search{
+    width : 600px;
+    height: 25px;
+    margin : auto;
+    background-color : black;
+    text-align: center;
+    position : absolute;
+    top : 0px;
+    padding : 10px 10px 15px 10px;
+    left : 200px;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+}
+
+#search input[type='submit']{
+    background  : #0087f7;
+    border : 0px;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    color : white;
+    font-size : 14px;
+}
+
+
+#results{
+    width : 600px;
+    margin : auto;
+    background-color : black;
+    text-align: center;
+    position : absolute;
+    top : 75px;
+    padding : 25px 10px 50px 10px;
+    left : 200px;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    opacity:0.6;
+    color : white;
+    font-size : 20px;
+    text-align: center;
+}
+
+#results a {
+    text-decoration : none;
+    display : block;
+    width : 590px;
+    padding : 5px;
+}
+
+#results a:hover{
+   border : white 1px solid;
+   color : #0087f7;
+   border-bottom-left-radius: 10px 10px;
+   border-bottom-right-radius: 10px 10px;
+   border-top-left-radius: 10px 10px;
+   border-top-right-radius: 10px 10px;
+
+}
+
+#results table {
+    margin : auto;
+}
+
+#search input{
+
+    font-size : 20px;
+    font-family : verdana;
+
+}
